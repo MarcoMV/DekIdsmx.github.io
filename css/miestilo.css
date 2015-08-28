@@ -1,9 +1,9 @@
 section .agua {
-	color: #3F51B5;
+	color: #18FFFF;
 }
 
 section .do {
-	color: #F50057;
+	color: #FF1744;
 }
 section .cool {
 	color: white;
@@ -11,4 +11,44 @@ section .cool {
 
 section .pilares{
 	text-decoration: none;
+}
+
+section .cool {
+	color: white;
+}
+section .blanco {
+	color: white;
+}
+
+section .medium {
+	text-align: center;
+
+}
+ul .pilares {
+	text-align: center;
+	color: red;
+}
+
+.agua1 {
+	color: #18aaaa;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;;
+
+}
+
+.do1 {
+	color: #ff0084;
+}
+
+.brazaletes {
+	background: rgba(5,45,148,1);
+background: -moz-linear-gradient(left, rgba(5,45,148,1) 0%, rgba(12,43,245,1) 48%, rgba(5,45,148,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(5,45,148,1)), color-stop(48%, rgba(12,43,245,1)), color-stop(100%, rgba(5,45,148,1)));
+background: -webkit-linear-gradient(left, rgba(5,45,148,1) 0%, rgba(12,43,245,1) 48%, rgba(5,45,148,1) 100%);
+background: -o-linear-gradient(left, rgba(5,45,148,1) 0%, rgba(12,43,245,1) 48%, rgba(5,45,148,1) 100%);
+background: -ms-linear-gradient(left, rgba(5,45,148,1) 0%, rgba(12,43,245,1) 48%, rgba(5,45,148,1) 100%);
+background: linear-gradient(to right, rgba(5,45,148,1) 0%, rgba(12,43,245,1) 48%, rgba(5,45,148,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#052d94', endColorstr='#052d94', GradientType=1 );
+}
+.brazaletes h4 {
+	color: #BDBDBD;
 }

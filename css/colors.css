@@ -29,7 +29,17 @@ turquoise
   background-color: #202020;
 }
 .bg-shop {
-  background-image: url('../img2/m4.jpg');
+  background-image: url('../img2/m3.png');
+}
+.bg-shop1 {
+  background: rgba(255,0,132,1);
+background: -moz-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(186,13,97,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,0,132,1)), color-stop(100%, rgba(186,13,97,1)));
+background: -webkit-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(186,13,97,1) 100%);
+background: -o-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(186,13,97,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,0,132,1) 0%, rgba(186,13,97,1) 100%);
+background: linear-gradient(to right, rgba(255,0,132,1) 0%, rgba(186,13,97,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0084', endColorstr='#ba0d61', GradientType=1 );
 }
 .bg-turquoise {
   background-color: #1abc9c;
@@ -111,6 +121,12 @@ turquoise
 }
 
 
+@media (max-width: 767px) {
+.bg-shop {
+  background:url('../img2/m3short.png');
+  background-repeat: no-repeat;
+}
+  }
 
 /*-----  End of Colors  ------*/
 
